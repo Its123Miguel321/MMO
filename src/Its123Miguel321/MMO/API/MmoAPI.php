@@ -121,7 +121,7 @@ class MmoAPI
             $level += $stats->getLevel('building');
         }
 
-        return round($multiplier * $start * $level);
+        return (int)($multiplier * $start * $level);
     }
 
 
