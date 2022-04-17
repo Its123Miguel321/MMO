@@ -9,3 +9,6 @@ A mmo plugin for pocketmine
 - Building skill
 - Double drop chance for mining
 - Extra damage for combat
+- Custom Messages
+- Customizable settings
+- Level up rewards
