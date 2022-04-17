@@ -117,4 +117,17 @@ class Main extends PluginBase
     {
         return $this->settings;
     }
+    
+    
+    
+    /**
+     * Returns itself
+     *
+     * @return self
+     *
+     */
+    public static function getInstance() : self
+    {
+        return self::$instance;
+    }
 }
