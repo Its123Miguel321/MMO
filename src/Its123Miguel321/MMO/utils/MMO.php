@@ -160,7 +160,7 @@ class MMO
     /**
      * Gets the progress
      * 
-     * @param string $strat
+     * @param string $stat
      * 
      * @return int
      * 
