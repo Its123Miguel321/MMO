@@ -3,9 +3,3 @@ main: Its123Miguel321\MMO\Main
 api: 4.0.0
 version: 0.0.1
 author: Its123Miguel321
-
-permissions:
- mmo.cmd:
-  default: true
- mmo.cmd.op:
-  default: op
