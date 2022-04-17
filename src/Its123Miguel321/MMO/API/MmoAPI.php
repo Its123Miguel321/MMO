@@ -141,7 +141,7 @@ class MmoAPI
 
         if($stats !== null) $level += $stats->getLevel('mining');
 
-        if($level * $this->getMain()->getSettings()->getAddedDoubleDropPercent() === 0) return false;
+        if((int)($level * $this->getMain()->getSettings()->getAddedDoubleDropPercent()) === 0) return false;
 
         return (mt_rand(1, 100) <= $level * $this->getMain()->getSettings()->getAddedDoubleDropPercent());
     }
@@ -163,7 +163,7 @@ class MmoAPI
 
         if($stats !== null) $level += $stats->getLevel('combat');
 
-        if($level * $this->getMain()->getSettings()->getAddedExtraDamagePercent() === 0) return false;
+        if((int)($level * $this->getMain()->getSettings()->getAddedExtraDamagePercent()) === 0) return false;
 
         return (mt_rand(1, 100) <= $level * $this->getMain()->getSettings()->getAddedExtraDamagePercent());
     }
